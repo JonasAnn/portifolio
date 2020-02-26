@@ -165,17 +165,22 @@ height: auto;
 
 
 /*----about me------*/
-#work {
+#about{
   width: 70%;
-  margin: auto;
+  margin-left: 15%;
+  margin-top: 3em;
+  margin-bottom: 5em;
   position: relative;
 }
 .section__subtitle-about {
-  padding-left: 1.5em;
+  padding: .2em 1.5em;
+}
+.section__title-about {
+  padding-left: .7em;
 }
 .about__body {
    padding-left: 1.8em;
-   width: 50%;
+   width: 60%;
 }
 .fullPic {
   position: absolute;
