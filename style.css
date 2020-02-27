@@ -268,3 +268,19 @@ display: none;
    width: 80%;
 }
 /*-----projects-------*/
+.portfolio {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.portfolio__one {
+  margin-bottom: 0;
+}
+.work1 {
+  width: 80%;
+  height: auto;
+  margin-left: 10%;
+  margin-bottom: 1em;
+  border-bottom: 1px solid var(--clr-accent);
+}
+}
