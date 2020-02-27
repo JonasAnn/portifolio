@@ -215,11 +215,7 @@ height: auto;
   width: 27%;
   height: auto;
 }
-.portfolio_img {
-  width:100%;
-   object-fit: contain;
-   height: auto;
-}
+
 /*-=---footer------*/
 .footer {
   background-color: #000;
@@ -241,4 +237,22 @@ display: flex;
 }
 .footer__link {
   letter-spacing: .1em;
+}
+/*----media query -----*/
+
+@media (max-width: 768px) {
+  #home {
+ width: 80%;}
+/* --service----*/
+ .services {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+   color: #fff;
+   margin-bottom: 3.5em;
+}
+.service {
+  width: 90%;
+}
 }
