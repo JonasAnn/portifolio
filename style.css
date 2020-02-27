@@ -191,7 +191,36 @@ height: auto;
 /*--project section-----*/
 #work {
   background-color: var(--clr-dark);
+  text-align: center;
+  border-bottom: 1px solid var(--clr-light);
+  box-shadow: 0 1px 1px grey;
 }
+.section__title-projects {
+  color: var(--clr-light);
+  }
+.section__subtitle-projects{
+  color: var(--clr-accent);
+   margin-bottom: 1.5em;
+}
+.portfolio {
+  width: 90%;
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+}
+.portfolio__one {
+  margin-bottom: 2em;
+}
+.work1 {
+  width: 27%;
+  height: auto;
+}
+.portfolio_img {
+  width:100%;
+   object-fit: contain;
+   height: auto;
+}
+
 
 
 
