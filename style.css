@@ -255,4 +255,16 @@ display: flex;
 .service {
   width: 90%;
 }
+/*----about-----*/
+#about{
+  width: 95%;
+  margin: 0;
+  padding: 0;
 }
+.fullPic {
+display: none;
+}
+.about__body {
+   width: 80%;
+}
+/*-----projects-------*/
