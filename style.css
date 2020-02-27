@@ -12,18 +12,19 @@
   --clr-accent: #f2d394;
   
   --fs-h1:3rem;
-  --fs-h2:2.25rem;
-  --fs-h3:1.25rem;
-  --fs-body:1rem;
+  --fs-h2:2.75rem;
+  --fs-h3:1.75rem;
+  --fs-body:1.25rem;
  
 }
 
-@media (min-width: 800px) {
-  
-    --fs-h1:4.5rem;
-  --fs-h2:3.75rem;
-  --fs-h3:1.5rem;
-  --fs-body:1.125rem;
+@media (max-width: 800px) {
+  :root {
+    --fs-h1:2rem;
+  --fs-h2:1.75rem;
+  --fs-h3:1.25rem;
+  --fs-body:1rem;
+}
 }
 p {
   font-family: var(--ff-secondary);
@@ -242,7 +243,14 @@ display: flex;
 
 @media (max-width: 768px) {
   #home {
- width: 80%;}
+ width: 90%;
+padding: 0;
+}
+.intro__img-div {
+  width: 42%;
+   left: .5em;
+   top: .1em;
+}
 /* --service----*/
  .services {
   width: 100%;
@@ -282,5 +290,9 @@ display: none;
   margin-left: 10%;
   margin-bottom: 1em;
   border-bottom: 1px solid var(--clr-accent);
+}
+/*---footer----*/
+.social-list-div {
+  width: 20%;
 }
 }
