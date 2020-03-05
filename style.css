@@ -95,6 +95,7 @@ h3 {
   background-color:  var(--clr-accent);
  font-family: var(--ff-secondary);
  margin-bottom: 1em;
+ font-size: 1em;
 }
 /*----header----------*/
 header {
@@ -113,11 +114,11 @@ height: auto;
  position: relative;
 }
 .intro__img-div {
-  width: 40%;
+  width: 35%;
   height: auto;
   position: absolute;
-    top: 2em;
-    left: 7em;
+    top: 2.5em;
+    left: 4em;
 }
 .intro__img-div img {
   box-shadow: 4px 4px 20px #888888;
@@ -144,7 +145,7 @@ height: auto;
 }
 .services {
   width: 90%;
-  height: 200px;
+  height: auto;
   display: flex;
   flex-direction: row;
   justify-content:space-around;
@@ -181,7 +182,8 @@ height: auto;
 }
 .about__body {
    padding-left: 1.8em;
-   width: 60%;
+   width: 55%;
+   font-size: .9em;
 }
 .fullPic {
   position: absolute;
